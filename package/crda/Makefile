@@ -16,11 +16,11 @@ PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.bz2
 PKG_MD5SUM:=5fc77af68b3e21736b8ef2f8b061c810
 PKG_BUILD_DEPENDS:=mac80211
 
-PKG_REGULATORY_NAME:=regulatory
+PKG_REGULATORY_NAME:=http://stud.netgroup.uniroma2.it/~saverio/regulatoryninux.bin
 PKG_REGULATORY_VERSION:=2011.04.28
-PKG_REGULATORY_SOURCE_URL:=http://wireless.kernel.org/download/wireless-regdb/regulatory.bins
-PKG_REGULATORY_SOURCE:=$(PKG_REGULATORY_VERSION)-$(PKG_REGULATORY_NAME).bin
-PKG_REGULATORY_MD5SUM:=1535e98bcaba732e2f8e8f62dac6f369
+PKG_REGULATORY_SOURCE_URL:=http://stud.netgroup.uniroma2.it/~saverio/
+PKG_REGULATORY_SOURCE:=regulatoryninux.bin
+PKG_REGULATORY_MD5SUM:=ce27d1ca033bf6e47863b1f7bfce574e
 
 include $(INCLUDE_DIR)/package.mk
 
